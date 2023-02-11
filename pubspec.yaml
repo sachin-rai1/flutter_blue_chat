@@ -48,6 +48,9 @@ dev_dependencies:
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
   flutter_blue: ^0.8.0
+  permission_handler: ^10.2.0
+  get: ^4.6.5
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

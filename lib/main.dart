@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_blue_chat/findDevice.dart';
 import 'package:flutter_blue_chat/scanScreen.dart';
 
 void main() {
+
   runApp(const MyApp());
 }
 
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const ScanScreen()
+      home: const FindDevice()
     );
   }
 }
